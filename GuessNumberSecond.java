@@ -5,12 +5,12 @@ public class GuessNumberSecond {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Random random = new Random();
-        int guessNumber = random.nextInt(100) + 1;
+        int guessNumber = random.nextInt(10) + 1;
         int chance = 5;
         boolean userWin = false;
 
         while (chance > 0) {
-            System.out.print("Guess a number between 1 - 100: ");
+            System.out.print("Guess a number between 1 - 10: ");
             int userGuess = input.nextInt();
             chance--;
 
