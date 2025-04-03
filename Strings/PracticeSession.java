@@ -22,9 +22,12 @@ public class PracticeSession {
         String firstPart = word.substring(0, target);
         ans+=firstPart;
         ans+=targetWord;
-        ans+=word.substring(target+1);
+        ans+=word.substring(1+(target+targetWord.length()));
 
-        return ans;
+        // StringBuilder sb = new StringBuilder(word);
+        // sb.insert(target,targetWord);
+
+        // return sb.toString();
 
     }
 
