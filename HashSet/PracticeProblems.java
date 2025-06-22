@@ -3,7 +3,6 @@ import java.util.HashSet;
 
 public class PracticeProblems {
 
-
     public static boolean isAnagram(String s, String t) {
         //1) Freq Map
 
@@ -67,7 +66,7 @@ public class PracticeProblems {
         int count = 0;
 
         HashSet<Character> jwellerySet = new HashSet<>();
-        
+
         for (var ch : jewels.toCharArray()) {
             jwellerySet.add(ch);
         }
