@@ -1,3 +1,5 @@
+import PipelineStack.Node;
+
 public class InnerLinkedList {
     public static void main(String[] args) {
         Node head = new Node(20);
