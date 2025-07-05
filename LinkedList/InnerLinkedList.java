@@ -1,4 +1,4 @@
-import PipelineStack.Node;
+import Stacks.Node;
 
 public class InnerLinkedList {
     public static void main(String[] args) {

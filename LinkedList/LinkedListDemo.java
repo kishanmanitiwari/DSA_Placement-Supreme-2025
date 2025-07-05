@@ -1,4 +1,4 @@
-import PipelineStack.Node;
+import Stacks.Node;
 
 class Node {
     int data;
